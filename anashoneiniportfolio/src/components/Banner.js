@@ -54,6 +54,7 @@ export const Banner = () =>{
                         <button onClick={() => console.log('connect')}>Resume<span style={{ marginLeft: '10px' }}></span><FileText size={25} /></button></div> 
                 </Col>
                 </Row>
+                
                 <Row className="align-items-center">
 
                 <Col xs={12} md={6} xl={5}>

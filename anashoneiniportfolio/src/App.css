@@ -53,7 +53,6 @@ p, a, li, button, ul {
   font-weight: 500;
   color: #fff !important;
   font-size: 50px !important;
-  margin-left: -100px;
 }
 
 a:hover {
@@ -145,7 +144,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #fff;
+  background-color: #40087a;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -170,11 +169,11 @@ span.navbar-text {
 .navbar-text button {
   font-weight: 700;
   color: #fff;
+  padding: 5px 10px ;
   border: none; /* Remove the border */
-  padding: 5px 20px;
   font-size: 18px;
-  margin-left: 18px;
-  position: absolute;
+  margin-left: 15px;
+  position: relative;
   background-color: transparent;
   border-radius: 10px;
   box-shadow: inset 0 0 0 1px #fff; 
@@ -358,44 +357,49 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Skills Css ************/
-.skill {
-  padding: 0 0 50px 0;
-  position: relative;
-}
-.skill-bx {
-  background: #151515;
-  border-radius: 64px;
+.skills {
+  margin-top: 0;
+  padding: 26px 0 100px 0;
+  background-color: #fff;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
+  color: #40087a;
 }
-.skill h2 {
-	font-size: 45px;
-	font-weight: 700;
-}
-.skill p {
-    color: #B8B8B8;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
-}
-.skill-slider {
+
+.section-heading {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 200px;
+  border-bottom: 2px solid #000; /* Adjust the thickness and color as needed */
+  padding-bottom: 10px; /* Adjust the spacing between text and the line */
   width: 80%;
-  margin: 0 auto;
-  position: relative;
+  margin-bottom: 20px;
 }
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
+.skills-section {
+  color: #40087a;
+  margin-bottom: 40px;
 }
-.background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill {
+  background-color: #2b25ca;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin: 4px;
+  font-weight: 600;
+}
+
+
 
 /************ Projects Css ************/
 .project {
@@ -672,3 +676,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
