@@ -9,22 +9,26 @@ export const Projects = () => {
     {
       title: 'Project 1',
       description: 'Description of Project 1',
-      imgUrl: 'project-img1.png',
+      imgUrl: '../assets/img/banner-bg.png',
+      githubLink: 'https://github.com/yourusername/repo1',
     },
     {
       title: 'Project 2',
       description: 'Description of Project 2',
       imgUrl: 'project-img2.png',
+      githubLink: 'https://github.com/yourusername/repo2',
     },
     {
       title: 'Project 3',
       description: 'Description of Project 3',
       imgUrl: 'project-img3.png',
+      githubLink: 'https://github.com/yourusername/repo3',
     },
     {
         title: 'Project 4',
         description: 'Description of Project 4',
         imgUrl: 'project-img4.png',
+        githubLink: 'https://github.com/yourusername/repo4',
       },
   ];
 
@@ -43,6 +47,7 @@ export const Projects = () => {
                     <Col key={index} sm={6} md={6}>
                       <div className='projcard'>
                       <ProjectCards {...project} />
+                      <div className="proj-title">{project.title}</div>
                       </div>
                     </Col>
                   ))}

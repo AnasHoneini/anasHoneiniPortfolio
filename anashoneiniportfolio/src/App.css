@@ -384,6 +384,7 @@ h3 {
   background-color: #fff;
   color: #40087a;
   padding: 50px 0;
+  margin-bottom: 50px;
 }
 
 .project .section-heading {
@@ -397,18 +398,44 @@ h3 {
 }
 
 .project .projs {
-  margin-left: 450px;
-  margin-right: 300px;
+  margin-left: 330px;
+  margin-right: 200px;
 }
 
 .project .projcard{
+  height: 270px;
+  width: 250px;  
+}
+.proj-description {
+  margin-bottom: 10px; /* Add margin to separate description and button */
+}
+
+.proj-button {
+  align-items: center;
+}
+
+.github-button {
+  color: #40087a !important; /* Use !important to ensure your color is applied */
+  text-decoration: none; /* Remove underline from link text */
+}
+
+.github-button:hover {
+  color: #40087a !important; /* Apply the color on hover as well */
+}
+
+.proj-title {
+  margin-left: 160px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px; 
 }
 
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
-  margin-bottom: 100px;
+  height: 200px;
+  width: 400px;
 }
 
 .proj-imgbx::before {
