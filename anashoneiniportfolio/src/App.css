@@ -545,15 +545,18 @@ h3 {
 /************ Conatct Css ************/
 .contact {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 20px;
+  text-align: center; /* Center the text horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.contact img {
-  width: 92%;
-}
+
 .contact h2 {
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 30px;
+  color: #fff;
 }
 .contact form input,
 .contact form textarea {
