@@ -7,7 +7,7 @@ import { IconContext } from 'react-icons'
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
-  const toRotate = ['Web Developer', 'Mobile Developer']
+  const toRotate = ['Web ', 'Mobile ']
   const [text, setText] = useState('')
   const [delta, setDelta] = useState(300 - Math.random() * 100)
   const period = 500
@@ -49,14 +49,23 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={5} xl={7}>
-            <h1 className="fixed-height">
-              {`Hi, I am Anas Honeini `}
+            <div>
+                <h1 className="fixed-height">
+              {`Hi, I am Anas Honeini`}</h1>
+            </div>
+            <br/>
+            <div>
+            <h1 className="wrap">
               <span className="wrap">{text}</span>
-            </h1>
+              {`Developer`}</h1>
+            </div>
+            <div>
+            <br/>
             <p>
               I'm a Senior Computer Engineering Student at Lebanese American
               Univeristy.
             </p>
+            </div>
             <div className="button-container">
               <button onClick={() => console.log('connect')}>Hire Me</button>
               <button onClick={() => console.log('connect')}>
@@ -66,7 +75,7 @@ export const Banner = () => {
             </div>
           </Col>
         </Row>
-
+        <br/>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={5}>
             <div className="social-icon">
