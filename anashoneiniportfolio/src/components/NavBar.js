@@ -23,6 +23,9 @@ export const NavBar = () => {
   const onUpdateActiveLink = (value) => {
     setActiveLink(value)
   }
+  const redirectToLinkedIn = () => {
+    window.open('https://www.linkedin.com/in/anas-honeini/', '_blank');
+  };
 
   return (
     <Navbar expand="md" className={scrolled ? 'scrolled' : ''}>
@@ -84,7 +87,7 @@ export const NavBar = () => {
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
-            <button className="vvd" onClick={() => console.log('connect')}>
+            <button className="vvd" onClick={redirectToLinkedIn}>
               <span>Let's Connect</span>
             </button>
           </span>

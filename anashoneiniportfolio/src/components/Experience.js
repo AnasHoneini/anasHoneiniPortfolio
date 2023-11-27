@@ -37,7 +37,7 @@ export const Experience = () => {
   ]
 
   return (
-    <section className="project" id="projects">
+    <section className="experience" id="experience">
       <div>
         <Row>
           <Col size={12}>
