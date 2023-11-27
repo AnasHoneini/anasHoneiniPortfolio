@@ -42,16 +42,9 @@ export const Projects = () => {
 
   return (
     <section className="projects" id="projects">
-      <div>
-        <Row>
-          <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? 'animate__animated animate__fadeIn' : ''
-                  }
-                >
+                <div className={`${isVisible ? 'animate__animated animate__rotateInDownLeft' : ''}`}>
                   <h2 className="section-heading">My Projects</h2>
                   <div className="projs">
                     <Row>
@@ -68,9 +61,6 @@ export const Projects = () => {
                 </div>
               )}
             </TrackVisibility>
-          </Col>
-        </Row>
-      </div>
     </section>
   )
 }

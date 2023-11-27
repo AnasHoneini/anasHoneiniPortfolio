@@ -1,9 +1,17 @@
 import React from 'react'
+import TrackVisibility from 'react-on-screen'
 
 export const Skills = () => {
   return (
     <section className="skills" id="skills">
       <div className="containerSkills">
+        <TrackVisibility>
+        {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? 'animate__animated animate__rotateInDownLeft' : ''
+                  }
+                >
         <h2 className="section-heading">My Skills</h2>
 
         {/* Programming Languages */}
@@ -66,6 +74,8 @@ export const Skills = () => {
             <div className="skill">Clustering</div>
           </div>
         </div>
+      </div>)} 
+      </TrackVisibility>
       </div>
     </section>
   )

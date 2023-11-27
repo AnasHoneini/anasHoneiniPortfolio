@@ -35,37 +35,29 @@ export const Experience = () => {
         "Contributed to the enhancement of the company's e-commerce website, utilizing ReactJS to develop and optimize user interfaces and functionality, and consistently delivering on assigned frontend tasks.",
     },
   ]
+  
 
   return (
     <section className="experience" id="experience">
-      <div>
-        <Row>
-          <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? 'animate__animated animate__fadeIn' : ''
-                  }
-                >
-                  <h2 className="section-heading">My Experience</h2>
-                  <div className="projs">
-                    <Row>
-                      {experiences.map((experience, index) => (
-                        <Col key={index} sm={6} md={6}>
-                          <div className="projcard">
-                            <ExperienceCard {...experience} />
-                          </div>
-                        </Col>
-                      ))}
-                    </Row>
-                  </div>
+      <TrackVisibility>
+        {({ isVisible }) => (
+          <div className={`${isVisible ? 'animate__animated animate__rotateInDownLeft' : ''}`}>
+            
+                <h2 className="section-heading">My Experience</h2>
+                <div className="projs">
+                  <Row>
+                    {experiences.map((experience, index) => (
+                      <Col key={index} sm={6} md={6}>
+                        <div className="projcard">
+                          <ExperienceCard {...experience} />
+                        </div>
+                      </Col>
+                    ))}
+                  </Row>
                 </div>
-              )}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </div>
+          </div>
+        )}
+      </TrackVisibility>
     </section>
-  )
-}
+  );
+};
