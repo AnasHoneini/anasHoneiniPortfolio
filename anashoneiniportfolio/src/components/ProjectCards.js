@@ -1,12 +1,12 @@
-import React from 'react';
-import { Col, Button } from 'react-bootstrap';
-import { FaGithub } from 'react-icons/fa';
+import React from 'react'
+import { Col, Button } from 'react-bootstrap'
+import { FaGithub } from 'react-icons/fa'
 
-export const ProjectCards = ({ description, imgUrl, githubLink }) => {
+export const ProjectCards = ({ title, description, imgUrl, githubLink }) => {
   return (
     <Col size={12} sm={6} md={6}>
       <div className="proj-imgbx">
-        <img src={imgUrl} alt="test" />
+        <img src={imgUrl} alt={title} className="proj-img" />
         <div className="proj-txtx">
           <div className="proj-description">
             <span>{description}</span>
@@ -24,5 +24,5 @@ export const ProjectCards = ({ description, imgUrl, githubLink }) => {
         </div>
       </div>
     </Col>
-  );
-};
+  )
+}
