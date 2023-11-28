@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.91c31790.css",
+    "main.js": "/myPortfolio/static/js/main.068f58cc.js",
+    "static/js/787.1ef34b28.chunk.js": "/myPortfolio/static/js/787.1ef34b28.chunk.js",
+    "static/media/banner-bg.png": "/myPortfolio/static/media/banner-bg.fc7404b117cd5c912b91.png",
+    "static/media/schoolGuard.jpg": "/myPortfolio/static/media/schoolGuard.93f105217a22483d8b79.jpg",
+    "static/media/Anas_Honeini_CV.pdf": "/myPortfolio/static/media/Anas_Honeini_CV.87441772afdcd8b05e40.pdf",
+    "static/media/RoomBookingSystem.jpg": "/myPortfolio/static/media/RoomBookingSystem.c4cdff6e87d96ec366c8.jpg",
+    "static/media/BHospital-Management-System.png": "/myPortfolio/static/media/BHospital-Management-System.94502758542ff870a5a2.png",
+    "static/media/CentraNo2-Bold.ttf": "/myPortfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/myPortfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/myPortfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/ocr2.webp": "/myPortfolio/static/media/ocr2.e0744dc486b0469d92d3.webp",
+    "index.html": "/myPortfolio/index.html",
+    "main.91c31790.css.map": "/myPortfolio/static/css/main.91c31790.css.map",
+    "main.068f58cc.js.map": "/myPortfolio/static/js/main.068f58cc.js.map",
+    "787.1ef34b28.chunk.js.map": "/myPortfolio/static/js/787.1ef34b28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91c31790.css",
+    "static/js/main.068f58cc.js"
+  ]
+}
