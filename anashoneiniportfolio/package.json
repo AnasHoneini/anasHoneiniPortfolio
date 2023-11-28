@@ -1,7 +1,7 @@
 {
   "name": "anashoneiniportfolio",
   "version": "0.1.0",
-  "homepage": "https://AnasHoneini.github.io/myPortfolio",
+  "homepage": "https://AnasHoneini.github.io/anasHoneiniPortfolio",
   "private": true,
   "dependencies": {
     "@iconify/react": "^4.1.1",
