@@ -1,8 +1,6 @@
 import React from 'react'
 import { ExperienceCard } from './ExperienceCard'
 import { Row, Col } from 'react-bootstrap'
-import 'animate.css'
-import TrackVisibility from 'react-on-screen'
 
 export const Experience = () => {
   const experiences = [
@@ -39,10 +37,6 @@ export const Experience = () => {
 
   return (
     <section className="experience" id="experience">
-      <TrackVisibility>
-        {({ isVisible }) => (
-          <div className={`${isVisible ? 'animate__animated animate__rotateInDownLeft' : ''}`}>
-            
                 <h2 className="section-heading">My Experience</h2>
                 <div className="projs">
                   <Row>
@@ -55,9 +49,6 @@ export const Experience = () => {
                     ))}
                   </Row>
                 </div>
-          </div>
-        )}
-      </TrackVisibility>
     </section>
   );
 };

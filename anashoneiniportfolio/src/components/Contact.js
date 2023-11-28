@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Row, Col } from "react-bootstrap";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -45,10 +43,6 @@ export const Contact = () => {
   return (
     <section className="contact" id="contact">
           <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>(
-          <div className={`${isVisible ? 'animate__animated animate__bounceInLeft' : ''}`}>
-            
                 <h2>Get In Touch</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
@@ -76,10 +70,6 @@ export const Contact = () => {
                     }
                   </Row>
                 </form>
-             
-          </div>
-        )}
-            </TrackVisibility>
           </Col>
     </section>
   )

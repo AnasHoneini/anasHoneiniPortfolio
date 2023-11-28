@@ -1,8 +1,6 @@
 import React from 'react'
 import { ProjectCards } from './ProjectCards'
 import { Row, Col } from 'react-bootstrap'
-import 'animate.css'
-import TrackVisibility from 'react-on-screen'
 import downloadImage from '../assets/img/RoomBookingSystem.jpg'
 import downloadImage2 from '../assets/img/BHospital-Management-System.png'
 import downloadImage3 from '../assets/img/ocr2.webp'
@@ -42,9 +40,7 @@ export const Projects = () => {
 
   return (
     <section className="projects" id="projects">
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div className={`${isVisible ? 'animate__animated animate__rotateInDownLeft' : ''}`}>
+            
                   <h2 className="section-heading">My Projects</h2>
                   <div className="projs">
                     <Row>
@@ -58,9 +54,7 @@ export const Projects = () => {
                       ))}
                     </Row>
                   </div>
-                </div>
-              )}
-            </TrackVisibility>
+              
     </section>
   )
 }
