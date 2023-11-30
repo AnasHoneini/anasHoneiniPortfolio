@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/anasHoneiniPortfolio/static/css/main.bfc5aa1e.css",
+    "main.css": "/anasHoneiniPortfolio/static/css/main.9fcc7c47.css",
     "main.js": "/anasHoneiniPortfolio/static/js/main.6523c9b0.js",
     "static/js/787.1ef34b28.chunk.js": "/anasHoneiniPortfolio/static/js/787.1ef34b28.chunk.js",
     "static/media/banner-bg.png": "/anasHoneiniPortfolio/static/media/banner-bg.fc7404b117cd5c912b91.png",
@@ -13,12 +13,12 @@
     "static/media/CentraNo2-Book.ttf": "/anasHoneiniPortfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/ocr2.webp": "/anasHoneiniPortfolio/static/media/ocr2.e0744dc486b0469d92d3.webp",
     "index.html": "/anasHoneiniPortfolio/index.html",
-    "main.bfc5aa1e.css.map": "/anasHoneiniPortfolio/static/css/main.bfc5aa1e.css.map",
+    "main.9fcc7c47.css.map": "/anasHoneiniPortfolio/static/css/main.9fcc7c47.css.map",
     "main.6523c9b0.js.map": "/anasHoneiniPortfolio/static/js/main.6523c9b0.js.map",
     "787.1ef34b28.chunk.js.map": "/anasHoneiniPortfolio/static/js/787.1ef34b28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfc5aa1e.css",
+    "static/css/main.9fcc7c47.css",
     "static/js/main.6523c9b0.js"
   ]
 }
