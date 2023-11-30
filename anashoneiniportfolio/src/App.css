@@ -192,6 +192,7 @@ nav.navbar .navbar-collapse {
 @media (max-width: 767px) {
   nav.navbar .navbar-collapse {
     width: 100%;
+    margin-left: -15px;
     background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   }
 }
