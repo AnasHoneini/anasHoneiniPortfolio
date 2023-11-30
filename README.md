@@ -1,3 +1,3 @@
 # anasHoneiniPortfolio
 
-#Deployed: https://anashoneini.github.io/anasHoneiniPortfolio/
+Deployed: https://anashoneini.github.io/anasHoneiniPortfolio/
